@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="Sports">
+        <item>Water Polo</item>
+        <item>Swim</item>
+        <item>Track </item>
+    </string-array>
+</resources>

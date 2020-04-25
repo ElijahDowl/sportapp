@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwimActivity">
+
+    <TextView
+        android:id="@+id/WantToSwim"
+        android:layout_width="406dp"
+        android:layout_height="66dp"
+        android:background="#00BCD4"
+        android:text="So you wanna swim, huh?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/HowSwimWorks"
+        android:layout_width="405dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="3dp"
+        android:text="You know how to swim, I don't have to tell you how the competitions work. But just in case I do, Swim meets in high school are pretty much just dual meets, with  two schools competing. The team with the most points wins the meet. You earn points by winning races as each finishing place in a race gets a certain number of points.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WantToSwim" />
+
+    <TextView
+        android:id="@+id/SwimPractices"
+        android:layout_width="409dp"
+        android:layout_height="349dp"
+        android:text="Practices will normally be sprint practices, as all of the distance swimmers will be swimming at their own club. This is very swimmilar to water polo conditioning, but at this point you would have already made it through water polo, so you got this. You will spend most of your practice splitting a lane with someone so you always have someone to compete against. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HowSwimWorks" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

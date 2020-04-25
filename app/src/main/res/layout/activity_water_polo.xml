@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackSprintActivity">
+
+    <TextView
+        android:id="@+id/WantToPlayWaterPolo"
+        android:layout_width="406dp"
+        android:layout_height="66dp"
+        android:background="#00BCD4"
+        android:text="So you wanna play Water Polo, huh?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/HowWaterPoloWorks"
+        android:layout_width="405dp"
+        android:layout_height="296dp"
+        android:layout_marginTop="3dp"
+        android:text="Ok, So Water polo has a few wierd rules you have to follow: Dont touch the bottom of the pool. Dont touch the ball with two hands. Its a contact sport, but not that contact, but if the the ref dont see it, roll with it. In many of the games, expect to get kicked, pushed, scratched, shoved, or have your pants pulled down. This happens often. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WantToPlayWaterPolo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="409dp"
+        android:layout_height="349dp"
+        android:text="The practices are a bit hellish, as most of it is conditioning. out of the two hour practice, around an hour and a half  will be of just swimming back and forth back and forth with very little to no rest. Suck it up, and maybe there will be a scrimmage at the end of practice. This eases up around games though, as the coaches cant afford to have the team to hurt to play.  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HowWaterPoloWorks" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
